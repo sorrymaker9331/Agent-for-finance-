@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Models / Checkpoints
+models/
+qwen_risk_model/checkpoint-*
+qwen_risk_model/*.safetensors
+
+# Large data / videos
+*.zip
+*.mp4
+*.avi
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

@@ -1,0 +1,33 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-12-10T17:56:26.989140",
+  "start_timestamp": 1765360586.9891403,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-12-10T17:58:42.461809",
+  "end_timestamp": 1765360722.4618094,
+  "execution_time_seconds": 135.47187113761902,
+  "output_data": {
+    "fundamental_analysis_length": 3653,
+    "analysis_preview": "下面是基于“茅台（sh.600519）”的基本面分析计划与当前可获取信息情况，以及在数据可得时的具体分析要点。请注意：在本次会话中，尝试通过 Baostock 相关工具获取具体数值时遇到了登录/接口限制，导致部分财务数据未能如期返回。后续若能获取到有效的原始财报数据，我将据此给出带数值的完整分析。\n\n一、当前数据获取情况简述\n- 已获取信息：\n  - 最近成交日期信息：2025-12-10（最新交易日与当前时间一致）。\n  - 市场分析时间区间：最近一段时间（按系统返回，时间段为 2025-10-01 至 2025-12-10）。\n- 数据获取限制与原因：\n  - 公司基本信息、行业背景、财务报表（资产负债表、利润表、现金流量表）以及分红数据等，部分接口返回登录错误或格式化失败，当前会话未能提取具体数值。\n  - 可能原因包括：需登录权限、API并发/格式化限制、或 Baostock 公共接口的当前可用性问题。\n- 需要的下一步数据获取方式：\n  - 尽快通过有权限的会话重新获取 2024 年度及最新披露周期的完整财务报表（资产负债表、利润表、现金流量表）。\n  - 如有条件，可切换至",
+    "llm_execution_time": 126.9420211315155,
+    "total_execution_time": 135.47187113761902
+  },
+  "success": true,
+  "error": null
+}

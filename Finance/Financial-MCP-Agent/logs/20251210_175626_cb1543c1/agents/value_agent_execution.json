@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-12-10T17:56:32.400218",
+  "start_timestamp": 1765360592.4002185,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-12-10T17:58:16.789955",
+  "end_timestamp": 1765360696.7899556,
+  "execution_time_seconds": 104.38873672485352,
+  "output_data": {
+    "value_analysis_length": 2793,
+    "analysis_preview": "以下是当前状态下的茅台（sh.600519）估值分析计划与框架。由于数据请求在 Baostock API 端出现错误，未能获取到实际数值（基本信息、分红、K线、行业对比等）。我将先说明数据获取现状、分析框架以及在数据就绪时的输出格式。若你愿意，我可以继续重试数据获取或切换到备选数据源。\n\n1) 数据获取现状（近期执行情况）\n- 尝试获取的内容：公司基本信息（市值、股价）、主要估值指标（PE、PB、PS 等）、分红数据、行业对比、历史估值趋势、股息信息、以及其他基础财务数据。\n- 当前结果：API 返回错误，无法得到可用的数值数据（包括代码 sh.600519 的基本信息、分红数据、历史K线、行业对比等）。\n- 备注：如果允许，我可以继续尝试以下替代路径来获取数据：\n  - 重试 Baostock 访问（不同字段组合、不同日期区间）。\n  - 使用其他公开数据源/接口（如公司公告、交易所披露、权威财经数据库的二次数据）。\n  - 将数据段分步获取：先获得最新市值/股价，再逐步获取PE、PB、PS、股息数据、行业对比和历史区间数据。\n\n2) 估值分析的完整框架（数据就绪时执行）\n一旦获取到",
+    "llm_execution_time": 101.17760896682739,
+    "total_execution_time": 104.38873672485352
+  },
+  "success": true,
+  "error": null
+}
